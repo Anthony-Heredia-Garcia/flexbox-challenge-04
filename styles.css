@@ -57,10 +57,17 @@ body {
   font-family: 'Roboto';
   font-size: 1.3rem;
   gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .green {
   background-color: #222c2a;
   color: white;
   font-family: 'Roboto';
+}
+
+.article-container {
+  max-width: 900px;
+  margin: 0 auto;
 }
