@@ -57,8 +57,18 @@ body {
   font-family: 'Roboto';
   font-size: 1.3rem;
   gap: 2rem;
+  width: 90%;
   max-width: 900px;
   margin: 0 auto;
+}
+
+.green,
+.brown {
+  min-height: 660px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .green {
@@ -68,6 +78,34 @@ body {
 }
 
 .article-container {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  width: 90%;
   max-width: 900px;
-  margin: 0 auto;
 }
+
+.brown {
+  background-color: #824936;
+  color: white;
+  font-family: 'Roboto';
+}
+
+.title-and-descript {
+  width: 45%;
+}
+
+.title-and-descript h2 {
+  margin-top: 0;
+  color: #F3EED9;
+  font-size: 2rem;
+  font-family: 'Playfair Display';
+}
+
+.title-and-descript p {
+  font-size: 1.3rem;
+}
+
+/* img {
+  width: 45%;
+} */
