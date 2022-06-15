@@ -113,3 +113,15 @@ body {
 /* img {
   width: 45%;
 } */
+
+@media (max-width: 500px) {
+  .text,
+  .article-container {
+    display: block;
+  }
+
+  .title-and-descript,
+  .image-container {
+    width: 100%;
+  }
+}
